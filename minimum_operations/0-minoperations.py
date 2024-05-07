@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+""" Module for 0-minoperations"""
+
 def minOperations(n):
    
 #All outputs be at least 2 char: (min, Copy All => Paste)
