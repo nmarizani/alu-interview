@@ -30,4 +30,3 @@ def minOperations(n):
 
         root += 1
     return ops
-
