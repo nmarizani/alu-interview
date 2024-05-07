@@ -3,17 +3,15 @@
 """ Module for 0-minoperations"""
 
 
-def minOperations(n):   
+def minOperations(n):
     # All outputs be at least 2 char: (min, Copy All => Paste)
     if (n < 2):
 
         return 0
 
     ops, root = 0, 2
-    while root <= n: 
-
+    while root <= n:
         # If n evenly divides by root
-
         if n % root == 0:
 
             # Total even-divs by root = total ops
@@ -32,4 +30,5 @@ def minOperations(n):
 
         root += 1
     return ops
+
 
