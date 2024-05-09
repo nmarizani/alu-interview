@@ -3,7 +3,7 @@
 """ 0-minoperations module"""
 
 
-def min_operations(n):
+def minOperations(n):
     # All outputs be at least 2 char: (min, Copy All => Paste)
     if (n < 2):
 
