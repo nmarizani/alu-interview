@@ -1,4 +1,4 @@
- #!/usr/bin/python3
+#!/usr/bin/python3
 
 """ 0-minoperations module"""
 
@@ -30,5 +30,3 @@ def min_operations(n):
 
         root += 1
     return ops
-
-
