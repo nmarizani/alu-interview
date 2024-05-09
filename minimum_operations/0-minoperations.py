@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+""" 0-minoperations Module"""
+
 def min_operations(n):
     """
     Calculates the minimum number of operations needed to result in exactly n H characters
